@@ -1,0 +1,82 @@
+.bg-custom {
+ background-color: #9fcdff;
+
+}
+
+ .card-deck{
+
+    margin-right: 3px;
+    margin-left:  3px;
+    margin-bottom: 6px;
+    margin-top: 6px;
+     min-width: 13em;
+ }
+
+.card {
+    -moz-box-shadow: 0 0 5px #999;
+    -webkit-box-shadow: 0 0 5px #999;
+    box-shadow: 0 0 5px #999;
+    margin-top: 6px;
+     min-width: 13em;
+}
+
+.card-text {
+    font-family: 'Ubuntu Condensed', sans-serif;
+ font-size: large;
+}
+
+.container { margin-bottom: 70px;}
+
+
+.card-img-top {
+margin: 25px auto;
+ position: relative;
+
+}
+
+
+hr {
+/*    box-sizing: content-box; */
+    width: 30%;
+    height: 1px;
+    overflow: auto;
+}
+
+
+.vertical-menu {
+    width: 80px; /* Set a width if you like */
+    text-align: center;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    float: left;
+}
+
+.vertical-menu a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 8px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+    background-color: #1b1e21; /* Add a green color to the "active/current" link */
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="vertical-menu"] {
+        width: 100%;
+    }
+}
+
+/*
+body {
+    background-color: lightsteelblue;
+}
